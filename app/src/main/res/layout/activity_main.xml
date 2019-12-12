@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#00FFEE"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number Baseball"
+        android:textColor="#0000FF"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <EditText android:id="@+id/edit01"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:background="@drawable/baseball_back"
+            android:textSize="40sp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:maxLength="1"
+            android:inputType="number"/>
+
+        <EditText android:id="@+id/edit02"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/baseball_back"
+            android:layout_marginRight="5dp"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:maxLength="1"
+            android:inputType="number"/>
+
+        <EditText android:id="@+id/edit03"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_weight="1"
+            android:textSize="40sp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/baseball_back"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="@color/Black"
+            android:maxLength="1"
+            android:inputType="number"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#000000"
+        android:scrollbars="vertical"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:text="진행 상황"
+        android:padding="8dp"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="wrap_content">
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_gravity="left"
+        android:background="@color/Black"
+        android:onClick="reset"
+        android:text="리 셋"
+        android:textColor="@color/White" />
+    <Button android:id="@+id/button"
+        android:background="#FFFFFF"
+        android:textColor="@color/Black"
+        android:layout_width="300dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="right"
+        android:onClick="check"
+        android:text="확 인"/>
+
+
+</LinearLayout>
+</LinearLayout>
