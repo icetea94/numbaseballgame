@@ -11,15 +11,15 @@
     <style name="AppTheme.Appbar">
         <!-- 앱바 배경색 -->
         <!-- 제목 글씨 색상 -->
-        <item name="titleTextColor">@color/White</item>
-        <item name="colorPrimary">@color/Black</item>
+        <item name="titleTextColor">#FFFFFF</item>
+        <item name="colorPrimary">#000000</item>
         <!-- 액션바의 메뉴아이템들 색상 -->
-        <item name="colorControlNormal">@color/White</item>
-        <item name= "subtitleTextColor">@color/White</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name= "subtitleTextColor">#FFFFFF</item>
     </style>
     <style name="AppTheme.NoActionBar2" parent="Theme.MaterialComponents.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/White</item>
+        <item name="colorPrimary">#FFFFFF</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowNoTitle">true</item>
     </style>
